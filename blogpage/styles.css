@@ -1,0 +1,637 @@
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(/fonts/OpenSans-Regular.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(/fonts/OpenSans-Bold.ttf) format(truetype);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: OpenSans-Regular;
+}
+
+body {
+  background: white;
+}
+
+/*Header*/
+
+header {
+  width: 100%;
+  height: 100px;
+  border: 2px solid;
+  background-color: white;
+  position: sticky;
+  z-index: 999;
+}
+
+.navbar {
+  background-color: white;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  position: sticky;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+#navbar-logo {
+  color: black;
+  background-size: 100%;
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  padding-top: 26px;
+  font-family: OpenSans-Bold;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.navbar-item {
+  height: 80px;
+}
+
+.navbar-links {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 3rem;
+  height: 100%;
+  font-family: OpenSans-Bold;
+}
+
+.navbar-btn {
+  height: 100px;
+}
+.button {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.icon {
+  padding-top: 41px;
+  color: black;
+  min-width: 50px;
+  padding-left: 5px;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  padding: 1px 4px 1px 40px;
+  border-radius: 2rem;
+}
+input {
+  height: 20px;
+  margin-top: 40px;
+  width: 150px;
+}
+
+@media screen and (max-width: 800px), (orientation: portrait) {
+  header {
+    height: 220px;
+  }
+
+  .navbar {
+    padding-top: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*Opening section*/
+
+.blog {
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/671569830.webp);
+  background-color: grey;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+.blogpost {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  height: 130px;
+}
+
+.blogpost h2 {
+  color: white;
+  font-size: 4rem;
+  font-family: OpenSans-Bold;
+}
+
+.blogpost p {
+  color: whitesmoke;
+  font-size: 1.3rem;
+  font-family: OpenSans-Regular;
+}
+@media screen and (max-width: 1281px), (orientation: portrait) {
+  .blogpost {
+    height: 200px;
+  }
+}
+/*Newsletter section*/
+
+.news {
+  background-color: white;
+  height: 100px;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container1 h2 {
+  padding-left: 30px;
+  font-size: 2.1rem;
+  color: black;
+  padding-top: 30px;
+  font-family: OpenSans-Bold;
+}
+
+.subcon {
+  display: flex;
+  margin-right: 20px;
+  gap: 1rem;
+}
+
+.subcon input {
+  font-size: 20px;
+  border-radius: 2rem;
+  width: 250px;
+  height: 30px;
+  font-family: OpenSans-Regular;
+}
+
+.subcon .button1 {
+  font-size: 1rem;
+  width: 10rem;
+  margin-left: 10px;
+  background-color: white;
+  font-weight: bold;
+  height: 40px;
+  margin-top: 2.2rem;
+  border-radius: 2rem;
+  font-family: OpenSans-Bold;
+}
+
+@media screen and (max-width: 100px), (orientation: portrait) {
+  .news {
+    height: 120px;
+  }
+}
+
+/* picture collection 1*/
+
+.picture1 {
+  height: 700px;
+  display: grid;
+  margin-top: 20px;
+}
+
+.collection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  padding: 10px;
+}
+
+#grid1 {
+  background: url(/images/output-onlinepngtools.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#grid1 h2 {
+  padding-top: 30%;
+  color: black;
+  font-family: OpenSans-Bold;
+}
+
+#grid2 h3 {
+  padding-top: 30%;
+  color: black;
+  font-size: 1.4rem;
+  font-family: OpenSans-Bold;
+}
+
+#grid3 h3 {
+  padding-top: 30%;
+  color: black;
+  font-size: 1.4rem;
+  font-family: OpenSans-Bold;
+}
+
+.col-span1 {
+  grid-row: span 2;
+}
+
+#grid2 {
+  background-image: url(/images/output-onlinepngtools-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  height: 100%;
+}
+
+#grid3 {
+  background-image: url(/images/output-onlinepngtools-3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 20px;
+  height: 100%;
+}
+@media screen and (max-width: 500px), (orientation: portrait) {
+  .picture1 {
+    display: grid;
+    height: 1200px;
+    justify-content: center;
+  }
+  .collection {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 900px;
+  }
+  #grid2 {
+    height: 400px;
+    background-position: center;
+  }
+  #grid1 {
+    background-position: center;
+  }
+  #grid3 {
+    height: 400px;
+  }
+  #grid2 h3,
+  #grid3 h3 {
+    padding-top: 37%;
+  }
+
+  #grid1 h2,
+  #grid2 h3,
+  #grid3 h3 {
+    color: black;
+    font-size: 1.8rem;
+  }
+}
+
+/* Section2 */
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-flow: row wrap;
+  margin-top: 20px;
+}
+
+.cards {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  margin: 30px;
+  border-radius: 2rem;
+  gap: 2rem;
+  width: 90%;
+}
+
+#card-img {
+  background: url(/images/gabi\ martinelli.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 2rem;
+}
+
+#card-img1 {
+  background: url(/images/haaland.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 2rem;
+}
+
+#card-img2 {
+  background: url(/images/potm\ .jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 2rem;
+}
+.text-container {
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.button2 {
+  font-size: 30px;
+  background: center;
+  margin-left: 50%;
+  border-radius: 1rem;
+  padding: 20px;
+  margin-top: 20px;
+  background: darkgrey;
+}
+
+/* most popular section */
+
+.popular {
+  margin-top: 2rem;
+  border-top: solid gray;
+  padding-top: 1rem;
+}
+
+.popular-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular-title h2 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.cards2 {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  margin: 30px;
+  border-radius: 2rem;
+  gap: 2rem;
+  width: 90%;
+}
+
+#card-img4 {
+  background: url(/images/ronaldo\ interview.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 2rem;
+}
+
+#card-img5 {
+  background: url(/images/chelsea\ ss.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 2rem;
+}
+.text-container2 {
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.text-container2 h3 {
+  line-height: 4rem;
+}
+.text-container2 .p1 {
+  line-height: 3rem;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.text-container2 .p2 {
+  font-size: 1.4rem;
+  padding-top: 15px;
+}
+
+.text-container2 span {
+  text-decoration: underline;
+  color: blue;
+}
+
+.button3 {
+  font-size: 30px;
+  background: center;
+  margin-left: 50%;
+  border-radius: 1rem;
+  padding: 20px;
+  margin-top: 20px;
+  background: darkgrey;
+}
+
+/* newest category section */
+
+.category {
+  margin-top: 3rem;
+  border-top: 1px solid grey;
+  padding-top: 10px;
+}
+
+.category-1 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropbtn {
+  font-size: 2rem;
+  text-decoration: none;
+  border: none;
+  background: none;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: lawngreen;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: lightblue;
+  z-index: 1;
+  display: none;
+}
+
+.dropdown-content a {
+  float: none;
+  color: blue;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: blueviolet;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.container5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* card 1 */
+
+.cards3 {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  margin: 2rem;
+  border-radius: 2rem;
+  gap: 2rem;
+  width: 300px;
+  height: 550px;
+}
+
+#card-img6 {
+  background: url(/images/chelsea\ ss.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 2rem;
+}
+
+#card-img7 {
+  background: url(/images/Newcastle-United-player-Dan-Burn-and-Blyth-Spartans-chairman-Tony-Platten-v1.png.webp);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 2rem;
+}
+
+.hyper {
+  font-size: 1rem;
+  margin: 15px;
+  padding-left: 10px;
+  color: white;
+  width: 90px;
+  border: 1px solid;
+  border-radius: 2rem;
+  background: grey;
+  opacity: 0.8;
+}
+
+.text-container3 .link {
+  color: #bf4600;
+  margin-top: 80%;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+/* subcribe to newsletter */
+
+.newsletter {
+  background: lightgrey;
+  padding-top: 1rem;
+}
+
+.sub {
+  text-align: center;
+  line-height: 2rem;
+}
+
+.sub h2 {
+  font-size: 2rem;
+  padding-bottom: 0.6rem;
+}
+
+.sub p {
+  font-size: 1.2rem;
+}
+
+.sub input {
+  font-size: 1rem;
+  width: 200px;
+}
+
+.button4 {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  width: 14%;
+  background: black;
+  color: white;
+  border-radius: 1rem;
+}
+
+.fot {
+  background: black;
+}
