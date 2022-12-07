@@ -150,7 +150,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/671569830.webp);
+  background-image: url(blogpage/images/671569830.webp);
   background-color: grey;
   background-position: center;
   background-size: cover;
@@ -251,7 +251,7 @@ input {
 }
 
 #grid1 {
-  background: url(/images/output-onlinepngtools.png);
+  background: url(blogpage/images/output-onlinepngtools.png);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -283,7 +283,7 @@ input {
 }
 
 #grid2 {
-  background-image: url(/images/output-onlinepngtools-2.png);
+  background-image: url(blogpage/images/output-onlinepngtools-2.png);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -293,7 +293,7 @@ input {
 }
 
 #grid3 {
-  background-image: url(/images/output-onlinepngtools-3.png);
+  background-image: url(blogpage/images/output-onlinepngtools-3.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -359,7 +359,7 @@ input {
 }
 
 #card-img {
-  background: url(/images/gabi\ martinelli.jpg);
+  background: url(blogpage/images/gabi\ martinelli.jpg);
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -368,7 +368,7 @@ input {
 }
 
 #card-img1 {
-  background: url(/images/haaland.jpg);
+  background: url(blogpage/images/haaland.jpg);
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -377,7 +377,7 @@ input {
 }
 
 #card-img2 {
-  background: url(/images/potm\ .jpg);
+  background: url(blogpage/images/potm\ .jpg);
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -431,7 +431,7 @@ input {
 }
 
 #card-img4 {
-  background: url(/images/ronaldo\ interview.jpg);
+  background: url(blogpage/images/ronaldo\ interview.jpg);
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -440,7 +440,7 @@ input {
 }
 
 #card-img5 {
-  background: url(/images/chelsea\ ss.jpg);
+  background: url(blogpage/images/chelsea\ ss.jpg);
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -559,7 +559,7 @@ input {
 }
 
 #card-img6 {
-  background: url(/images/chelsea\ ss.jpg);
+  background: url(blogpage/images/chelsea\ ss.jpg);
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -568,7 +568,7 @@ input {
 }
 
 #card-img7 {
-  background: url(/images/Newcastle-United-player-Dan-Burn-and-Blyth-Spartans-chairman-Tony-Platten-v1.png.webp);
+  background: url(blogpage/images/Newcastle-United-player-Dan-Burn-and-Blyth-Spartans-chairman-Tony-Platten-v1.png.webp);
   background-size: cover;
   background-position: center;
   height: 300px;
